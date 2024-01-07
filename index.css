@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    padding: 16px;
+}
+
+nav {
+    width: 600px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+}
+
+.header-2 {
+    padding: 12px;
+}
+
+.header-2>img {
+    width: 60px;
+    margin-right: 16px;
+}
+
+.header-2>form {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 8px;
+    background-color: #f2f2f2;
+    gap: 8px;
+    margin-right: 30px;
+}
+
+.header-2>form>img {
+    width: 25px;
+    height: 25px;
+}
+
+.header-2>form>input {
+    font-size: 16px;
+    padding: 8px 0px;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+}
+
+.header-2>form>button {
+    font-size: 16px;
+    padding: 8px;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #fb3e44;
+}
+
+.header-2 a {
+    text-decoration: none;
+    padding: 4px 14px;
+    color: black;
+}
+
+.header-2 a:first-of-type {
+    font-weight: 500;
+    border: 1px solid gray;
+}
+
+section {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-section {
+    background-color: rgba(232, 217, 217, .3);
+}
+
+.main-section h1 {
+    font-size: 60px;
+}
+
+.main-section article {
+    max-width: 400px;
+    text-align: center;
+}
+
+.main-section div {
+    padding: 40px 0;
+}
+
+.main-section a {
+    text-decoration: none;
+    color: black;
+    padding: 12px 52px;
+}
+
+.main-section a:first-of-type {
+    background-color: #fb3b49;
+    box-shadow: 8px 8px 0px rgba(251, 59, 73, .2);
+    color: white;
+}
